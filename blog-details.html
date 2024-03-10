@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Details</title>
+    <!-- Favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/nice-select/nice-select.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="assets/vendors/thm-icons/style.css">
+    <!-- Module css -->
+    <link rel="stylesheet" href="assets/css/module-css/01-header-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/02-banner-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/03-about-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/04-fact-counter-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/05-testimonial-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/06-partner-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/07-footer-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/08-blog-section.css">
+    <link rel="stylesheet" href="assets/css/module-css/09-breadcrumb-section.css">
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+
+    <style>
+        .arrow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transform: rotate(90deg);
+            cursor: pointer;
+        }
+
+        .arrow span {
+            display: block;
+            width: 1.5vw;
+            height: 1.5vw;
+            border-bottom: 5px solid #eb292cdb;
+            border-right: 5px solid #eb292cd0;
+            transform: rotate(45deg);
+            margin: -10px;
+        }
+
+        .arrow span:hover {
+            animation: animate 2s infinite;
+
+        }
+
+        .arrow span:nth-child(2) {
+            animation-delay: -0.2s;
+        }
+
+        /* .arrow span:nth-child(3) {
+            animation-delay: -0.4s;
+        } */
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Start Preloader -->
+    <!-- <div class="loader-wrap">
+        <div class="preloader">
+            <div id="handle-preloader" class="handle-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <span data-text-preloader="H" class="letters-loading"> H </span>
+                        <span data-text-preloader="A" class="letters-loading"> A </span>
+                        <span data-text-preloader="S" class="letters-loading"> S </span>
+                        <span data-text-preloader="T" class="letters-loading"> T </span>
+                        <span data-text-preloader="A" class="letters-loading"> A </span>
+                        <span data-text-preloader="G" class="letters-loading"> G </span>
+                        <span data-text-preloader="S" class="letters-loading"> S </span>
+                        <span data-text-preloader="O" class="letters-loading"> O </span>
+                        <span data-text-preloader="L" class="letters-loading"> L </span>
+                        <span data-text-preloader="U" class="letters-loading"> U </span>
+                        <span data-text-preloader="T" class="letters-loading"> T </span>
+                        <span data-text-preloader="I" class="letters-loading"> I </span>
+
+                        <span data-text-preloader="O" class="letters-loading"> O </span>
+                        <span data-text-preloader="N" class="letters-loading"> N </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- End Preloader -->
+
+
+
+
+    <div class="page-wrapper">
+
+        <!--Start Main Header One-->
+        <header class="main-header main-header-one main-header-one--two">
+            <!--Start Main Header One Top-->
+            <!-- <div class="main-header-one--two__top">
+                <div class="auto-container">
+                    <div class="main-header-one--two__top-inner">
+                        <div class="main-header-one--two__top-left">
+                            <ul class="main-header-one--two__top-contact-info">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-mail-1"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>
+                                            <a
+                                                href="mailto:info.hastagsolutions@gmail.com">info.hastagsolutions@gmail.com</a>
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-wall-clock"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Open Hours: Mon - Fri 8.00 am - 6.00 pm</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="main-header-one__top-left-social-link">
+                                <li>
+                                    <a href="#"><span class="icon-facebook-app-symbol"></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-twitter"></span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="icon-instagram"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="main-header-one--two__top-right">
+                            <a class="btn-one" href="#">
+                                <span class="txt">Contact Us</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!--End Main Header One Top-->
+
+            <!--Start Main Header One Bottom-->
+            <div class="main-header-one__bottom">
+                <nav class="main-menu main-menu-one main-menu-one--two">
+                    <div class="main-menu__wrapper clearfix">
+                        <div class="auto-container">
+                            <div class="main-menu__wrapper-inner">
+                                <div class="main-header-one__bottom-left">
+                                    <div class="logo-box-one">
+                                        <img src="./assets/images/logo/hastag_final_logo-removebg-preview.png" class="img-fluid Logos"/>
+                                    </div>
+                                </div>
+
+                                <div class="main-header-one__bottom-right">
+                                    <div class="main-menu-box">
+                                        <a href="#" class="mobile-nav__toggler">
+                                            <i class="fa fa-bars"></i>
+                                        </a>
+
+                                        <ul class="main-menu__list one-page-scroll-menu">
+                                            <li class="scrollToLink">
+                                                <a href="index.html#">Home</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="index.html#about">About</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="index.html#services">Services</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="index.html#Solution">Solution</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="index.html#Tenchologys">Technologys</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="index.html#projects">Projects</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="#Blog" style="color:#eb292c">Blog</a>
+                                            </li>
+                                            <li class="scrollToLink">
+                                                <a href="index.html#Contact">Contact Us</a>
+                                            </li>
+                                            <!--      <li class="dropdown">
+                                                                      <a href="#">Pages</a>
+                                                                      <ul>
+                                                                          <li><a href="index-2.html">Home Page 01</a></li>
+                                                                          <li><a href="index-3.html">Home Page 02</a></li>
+                                                                          <li><a href="index-4.html">Home Page 03</a></li>
+                                                                          <li><a href="index-dark.html">Home Dark</a></li>
+                                                                      </ul>
+                                                                  </li> -->
+                                        </ul>
+                                    </div>
+
+                                    <!--     <div class="main-header-one__bottom-right-number">
+                                        <div class="icon">
+                                            <span class="icon-headphones"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Call Anytime</p>
+                                            <a href="tel:3336660000">333 666 0000</a>
+                                        </div>
+                                    </div>
+ -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--End Main Header One Bottom-->
+        </header>
+        <!--End Main Header One-->
+
+        <div class="stricky-header stricked-menu main-menu main-menu-one--two">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+
+        <!--Start Breadcrumb Style1-->
+        <section class="breadcrumb-style1 blog-details">
+            <div class="breadcrumb-style1__bg"
+                style="background-image: url(assets/images/backgrounds/breadcrumb-v1-bg2.jpg);"></div>
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="breadcrumb-style1__inner text-center">
+                            <h2 id="blog-title">Self-Guided Driving & Tours Walk</h2>
+
+                            <ul class="meta-box">
+
+                                <li>
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <span class="icon-calendar-1"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Apr 17, 2023</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End Breadcrumb Style1-->
+        <!--Start Blog Details-->
+        <section class="blog-details">
+            <div class="auto-container">
+                <div class="row">
+                    <!--Start Blog Details Content-->
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="blog-details__content">
+                            <div class="blog-details-text-box1" id="eg-previewer">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Blog Details Content-->
+                </div>
+            </div>
+        </section>
+        <!--End Blog Details-->
+
+        <!--Start Newsletter Style1-->
+        <section class="newsletter-style1">
+            <div class="auto-container">
+                <div class="row">
+                    <!--Start Newsletter Style1 Title-->
+                    <div class="col-xl-4">
+                        <div class="newsletter-style1__title">
+                            <h2>Subscribe To Our <br> Newsletter</h2>
+                        </div>
+                    </div>
+                    <!--End Newsletter Style1 Title-->
+
+                    <!--Start Newsletter Style1 Form-->
+                    <div class="col-xl-8">
+                        <div class="newsletter-style1__form">
+                            <form action="https://mehedi.asiandevelopers.com/govarnex-demo/assets/inc/sendemail.php"
+                                class="comment-one__form contact-form-validated" novalidate="novalidate">
+                                <div class="newsletter-style1__form-inner">
+                                    <ul>
+                                        <li>
+                                            <div class="comment-form__input-box">
+                                                <input type="text" placeholder="Your name" name="name">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="comment-form__input-box">
+                                                <input type="email" placeholder="Your email" name="email">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="newsletter-style1__form-btn">
+                                        <button type="submit" class="btn-one newsletter-style1__form-btn">
+                                            <span class="txt">Subscribe Now</span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--End Newsletter Style1 Form-->
+                </div>
+            </div>
+        </section>
+        <!--End Newsletter Style1-->
+
+
+        <!--Start footer area -->
+        <footer class="footer-area">
+            <div class="footer-area__shape1">
+                <img src="assets/images/shapes/footer-v1-shape1.png" alt="#">
+            </div>
+            <!--Start Footer-->
+            <div class="footer">
+                <div class="auto-container">
+                    <div class="row">
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
+                            <div class="single-footer-widget">
+                                <div class="our-company-info">
+                                    <div class="footer-logo-style1">
+                                        <div class="title">HasTag Solution</div>
+                                    </div>
+
+                                    <ul class="our-company-info__social-link">
+                                        <!-- <div class="title mb-3">Social link</div> -->
+                                        <li>
+                                            <a href="#"><span class="icon-facebook-app-symbol"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-twitter"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span class="icon-instagram"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
+                            <div class="single-footer-widget single-footer-widget--explore">
+                                <div class="title">
+                                    <h3>Services</h3>
+                                </div>
+                                <div class="footer-widget-links">
+                                    <ul>
+                                        <li><a href="#">Web Development</a></li>
+                                        <li><a href="#">App Development</a></li>
+                                        <li><a href="#">Digital Marketing</a></li>
+                                        <li><a href="#">SEO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
+                            <div class="single-footer-widget single-footer-widget--links">
+                                <div class="title">
+                                    <h3>Explore</h3>
+                                </div>
+                                <div class="footer-widget-links">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="blog-grid.html">Blog</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+
+                        <!--Start single footer widget-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
+                            <div class="single-footer-widget footer-widget--contact">
+                                <div class="title">
+                                    <h3>Contact</h3>
+                                </div>
+                                <div class="footer-widget--contact-info">
+                                    <ul>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-pin"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Ahmedabad, Gujarat, India.</p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-mail-1"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    <a
+                                                        href="mailto:info.hastagsolutions@email.com">info.hastagsolutions@email.com</a>
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-telephone"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p><a href="https://wa.me/9724740340">+91 9724740340</a></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single footer widget-->
+                    </div>
+                </div>
+            </div>
+            <!--End Footer-->
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="bottom-inner text-center">
+                        <div class="copyright">
+                            <p>Copyright 2023 by <a href="#">govarnex</a> All Right Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!--End footer area-->
+
+    </div>
+    <!-- /.page-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler">
+                <i class="icon-plus"></i>
+            </span>
+            <div class="logo-box">
+                <a href="index-2.html" aria-label="logo image">
+                    <img src="assets/images/resources/mobile-nav-logo.png" alt="" />
+                </a>
+            </div>
+            <div class="mobile-nav__container"></div>
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:123456789">444 000 777 66</a>
+                </li>
+            </ul>
+            <div class="mobile-nav__social">
+        <!-- <a href="#" class="fab fa-twitter"></a> -->                <a href="#" class="fab fa-facebook-square"></a>
+                <a href="#" class="fab fa-pinterest-p"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label>
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-search-1"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <i class="icon-down-arrow"></i>
+    </a>
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-migrate/jquery-migrate.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/parallax/parallax.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/typed-2.0.11/typed-2.0.11.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+
+    <!-- Template js -->
+    <script src="assets/js/customBlogDetail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+    <script>
+        function parseURLParams(url) {
+            var queryStart = url.indexOf("?") + 1,
+                queryEnd = url.indexOf("#") + 1 || url.length + 1,
+                query = url.slice(queryStart, queryEnd - 1),
+                pairs = query.replace(/\+/g, " ").split("&"),
+                parms = {}, i, n, v, nv;
+
+            if (query === url || query === "") return;
+
+            for (i = 0; i < pairs.length; i++) {
+                nv = pairs[i].split("=", 2);
+                n = decodeURIComponent(nv[0]);
+                v = decodeURIComponent(nv[1]);
+
+                if (!parms.hasOwnProperty(n)) parms[n] = [];
+                parms[n].push(nv.length === 2 ? v : null);
+            }
+            return parms;
+        }
+        console.log(parseURLParams(window.location.search))
+
+        let key = parseURLParams(window.location.search)?.blog?.at(0)
+
+        axios
+            .get("https://hastag-admin-default-rtdb.firebaseio.com/blogs.json", {
+                Authorization: "Bearer J3_0kzz6HPJ1AyB4X4rG9QoZK2h3YnnpYjEgetbibb8", // Replace YOUR_TOKEN with your actual authorization token
+                "Content-Type": "application/json", // Adjust content type if necessary
+            })
+            .then((response) => {
+                const blogs = Object.keys(response.data);
+                const blog = blogs.map((ele, index) => ele === key ? index : "").filter(ele => ele !== "");
+
+                // Check if the blog element is found
+                if (blog.length > 0) {
+                    const index = blog[0];
+                    let data = Object.values(response.data)[index];
+
+                    // Use querySelector to select the first element with the specified class
+                    let blogImg = document.querySelector(".breadcrumb-style1__bg");
+                    let blogTitle = document.querySelector("#blog-title");
+
+                    // Check if the element is found
+                    if (blogImg) {
+                        blogImg.style.backgroundImage = `url(${data.file})`;
+                        blogTitle.innerHTML = data.title
+                        document.getElementById("eg-previewer").innerHTML = data.blogContent;
+
+                        // var editor = new FroalaEditor('#froala', {
+                        //     pluginsEnabled: ['codeView'],
+                        //     codeViewKeepActiveButtons: ['selectAll'],
+                        //     events: {
+                        //         'codeView.update': function () {
+                        //             // Do something here.
+                        //             // this is the editor instance.
+                        //         }
+                        //     }
+                        // });
+                        console.log(data.file);
+                    } else {
+                        console.error("Element with class 'breadcrumb-style1__bg' not found");
+                    }
+                } else {
+                    console.error("Blog not found");
+                }
+            })
+            .catch((error) => {
+                console.error("Error fetching blog data:", error);
+            });
+    </script>
+
+
+</body>
+
+</html>
